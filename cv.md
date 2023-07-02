@@ -76,3 +76,4 @@ Sep 2008 - Sep 2009
 * English - B1 
 * Polish - B1
 * Russian - native
+* Belarusian - native
