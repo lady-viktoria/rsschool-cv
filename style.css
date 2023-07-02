@@ -1,0 +1,16 @@
+.cv{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.title{
+    font-size: 22px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.time{
+    font-style: italic;
+}
+.job{
+    font-size: 18px;
+    color:rgb(79, 20, 134);
+}
