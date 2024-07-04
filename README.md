@@ -1,1 +1,1 @@
-[cv](https://lady-viktoria.github.io/rsschool-cv/)
+https://lady-viktoria.github.io/rsschool-cv/cv
