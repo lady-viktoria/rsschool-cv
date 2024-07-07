@@ -1,130 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="cv container">
-      <div class="about_me">
-        <img class="foto" src="photo.jpg" alt="photo" width="230">
+    <div class="container">
+      <header class="about_me">
+        <img class="foto" src="photo.jpg" alt="photo" width="230" />
         <div>
+          <nav>
+            <ul class="menu">
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#code">Code example</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#languages">Languages</a></li>
+            </ul>
+          </nav>
           <h1>Kryvalapava Viktoryia</h1>
-          <section>
-            <p class="title">Contacts</p>
+          <div>
+            <h2 id="contacts" class="title">Contacts</h2>
             <p><b>Phone:</b> +48539622431</p>
             <p><b>E-mail:</b> lady.vikusha@gmail.com</p>
             <p><b>Linkedin:</b> linkedin.com/in/ladyviktoriya</p>
-          </section>
+          </div>
         </div>
-      </div>
+      </header>
 
-      <section>
-        <p class="title">Summary</p>
-        <p>
-          I am now a software engineer with a master's degree in economics.
-          Looking for an interesting project where I can apply my skills to the
-          fullest extent!
-        </p>
-      </section>
+      <main>
+        <div>
+          <h2 id="summary" class="title">Summary</h2>
+          <p>
+            I am now a software engineer with a master's degree in economics.
+            Looking for an interesting project where I can apply my skills to
+            the fullest extent!
+          </p>
+        </div>
 
-      <section>
-        <p class="title">Skills</p>
-        <ul>
-          <li>Cascading Style Sheets (CSS)</li>
-          <li>JavaScript</li>
-          <li>HTML5</li>
-          <li>Git, GitHub</li>
-          <li>Financial Planning</li>
-          <li>Financial Analysis</li>
-          <li>Finance</li>
-          <li>Financial Accounting</li>
-          <li>Business Strategy</li>
-          <li>Business Planning</li>
-          <li>Accounting</li>
-        </ul>
-      </section>
+        <div>
+          <h2 id="skills" class="title">Skills</h2>
+          <ul>
+            <li>Cascading Style Sheets (CSS)</li>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>Git, GitHub</li>
+            <li>Financial Planning</li>
+            <li>Financial Analysis</li>
+            <li>Finance</li>
+            <li>Financial Accounting</li>
+            <li>Business Strategy</li>
+            <li>Business Planning</li>
+            <li>Accounting</li>
+          </ul>
+        </div>
 
-      <section>
-        <p class="title">Code example</p>
-        <pre>
-    <code>
-        arr = [2,1,9,8,6];
-        console.log(arr);
-    </code>
-    </pre>
-      </section>
+        <div>
+          <h2 id="code" class="title">Code example</h2>
+          <pre>
+      <code>
+          arr = [2,1,9,8,6];
+          console.log(arr);
+      </code>
+      </pre>
+        </div>
 
-      <section>
-        <p class="title">Experience</p>
-        <ul>
-          <li>
-            <p class="job">Frontend Developer - Medcorder</p>
-            <p class="time">Mar 2022 - Jul 2022 (5 months)</p>
-            <p>FrontEnd development and Analytics:</p>
-            <p class="skills">
-              HTML, CSS, JavaScript, SQL, MySql, Git, VSCode, Google Data Studio
-            </p>
-          </li>
-          <li>
-            <p class="job">Student/Intern - GeekBrains</p>
-            <p class="time">May 2020 - Feb 2022</p>
-            <p class="skills">
-              Interactive course on the basics of programming, HTML/CSS,
-              Interactive course, Professional html/css, Basics of JavaScript,
-              Fundamentals of relational databases, MySQL
-            </p>
-          </li>
-          <li>
-            <p class="job">Chief Accountant - Pinskdrev Zaslavl</p>
-            <p class="time">Sep 2015 - May 2020 (4 years 9 months)</p>
-            <p class="skills">
-              Enterprise tax calculation, Tax reporting, Statistical reporting,
-              Management of the accounting department.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <p class="title">Education</p>
-        <ul>
-          <li>
-            <p class="job">Belarusian National Technical University</p>
-            <p class="time">Sep 2002 - Sep 2007</p>
-            <p>Engineering Economist, Economics</p>
-          </li>
-          <li>
-            <p class="job">Belarusian National Technical University</p>
-            <p class="time">Sep 2008 - Sep 2009</p>
-            <p>Master of Science - MS, Economics</p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <p class="title">Courses</p>
-        <ul>
-          <li>Udemy. Полный курс по JavaScript. Иван Петриченко</li>
-          <li>GeekBrains. Frontend Developer.</li>
-          <li>Codecademy. Learn JavaScript.</li>
-        </ul>
-      </section>
+        <div>
+          <h2 id="experience" class="title">Experience</h2>
+          <ul>
+            <li>
+              <p class="job">Frontend Developer - Medcorder</p>
+              <p class="time">Mar 2022 - Jul 2022 (5 months)</p>
+              <p>FrontEnd development and Analytics:</p>
+              <p class="skills">
+                HTML, CSS, JavaScript, SQL, MySql, Git, VSCode, Google Data
+                Studio
+              </p>
+            </li>
+            <li>
+              <p class="job">Student/Intern - GeekBrains</p>
+              <p class="time">May 2020 - Feb 2022</p>
+              <p class="skills">
+                Interactive course on the basics of programming, HTML/CSS,
+                Interactive course, Professional html/css, Basics of JavaScript,
+                Fundamentals of relational databases, MySQL
+              </p>
+            </li>
+            <li>
+              <p class="job">Chief Accountant - Pinskdrev Zaslavl</p>
+              <p class="time">Sep 2015 - May 2020 (4 years 9 months)</p>
+              <p class="skills">
+                Enterprise tax calculation, Tax reporting, Statistical
+                reporting, Management of the accounting department.
+              </p>
+            </li>
+          </ul>
+        </div>
 
-      <section>
-        <p class="title">Languages</p>
-        <ul>
-          <li>English - B1</li>
-          <li>Polish - B1</li>
-          <li>Russian - native</li>
-          <li>Belarusian - native</li>
-        </ul>
-      </section>
+        <div>
+          <h2 id="education" class="title">Education</h2>
+          <ul>
+            <li>
+              <p class="job">Belarusian National Technical University</p>
+              <p class="time">Sep 2002 - Sep 2007</p>
+              <p>Engineering Economist, Economics</p>
+            </li>
+            <li>
+              <p class="job">Belarusian National Technical University</p>
+              <p class="time">Sep 2008 - Sep 2009</p>
+              <p>Master of Science - MS, Economics</p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 id="courses" class="title">Courses</h2>
+          <ul>
+            <li>Udemy. Полный курс по JavaScript. Иван Петриченко</li>
+            <li>GeekBrains. Frontend Developer.</li>
+            <li>Codecademy. Learn JavaScript.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 id="languages" class="title">Languages</h2>
+          <ul>
+            <li>English - B1</li>
+            <li>Polish - B1</li>
+            <li>Russian - native</li>
+            <li>Belarusian - native</li>
+          </ul>
+        </div>
+      </main>
       <footer>
         <a href="https://github.com/lady-viktoria">GitHub</a>
-        <div class="date">2023</div>
-        <a href="https://rs.school/js-stage0/"><img src="logo.svg" width="50" alt="rs school logo"></a>
+        <div class="date">2024</div>
+        <a href="https://rs.school/courses/javascript-ru"
+          ><img src="logo.svg" width="50" alt="rs school logo"
+        /></a>
       </footer>
     </div>
   </body>
