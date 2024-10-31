@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   margin: 0 auto;
   padding-left: 40px;
@@ -26,7 +30,7 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center; /* Выравнивание по центру */
+  justify-content: center;
 }
 .menu li a {
   display: block;
