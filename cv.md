@@ -66,7 +66,7 @@ console.log(arr);
 
 ### **Languages**
 
-- English - B1
+- English - A2
 - Polish - B1
 - Russian - native
 - Belarusian - native
